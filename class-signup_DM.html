@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="class-signup_DM.css">
+    <link rel="stylesheet" href="style_DR.css">
+    <script src="https://kit.fontawesome.com/e8940034ac.js" crossorigin="anonymous"></script>
+    <title>Dungeon Runners Classes</title>
+</head>
+<body>
+
+      <!-- Navbar -->
+
+    <nav>
+        <div class="nav-container">
+            <h3 class="nav-title">Dungeon Runner</h3>
+            <a class="nav-link" href="index_DR.html">Home</a>
+            <a class="nav-link"  href="about_DR.html" class="nav-link">Our History</a>
+            <a class="nav-link"  href="sign-in_DM.html#new-member" class="nav-link">Memberships</a>
+            <a class="nav-link"  href="sign-in_DM.html" class="nav-link">Sign In</a>
+            <a class="nav-link"  href="sign-out_DM.html" class="nav-link">Sign Out</a>
+            <a  class="nav-link" href="class-signup_DM.html" class="class-link" >Classes</a>
+            <a class="nav-link"  href="index_DR.html#connect" class="nav-link">Connect</a>
+        </div>
+    </nav>
+
+    <!-- Class Sign-up Form -->
+    <!-- Links to class descriptions jump too far down, cutting off image and title. -->
+    <section class="class-sign-up">
+        <div class="class-container">
+            <form class="form-container">
+                <dev class="form-item">
+                    <label>Name / Username / email:</label><br>
+                    <input type="text" id="name" placeholder="Name / username / email"><br><br>
+                    
+                    <h2>Select classes to sign up for below</h2>
+                    <h4>Please check class descriptions for requirements</h4>
+                    
+                    <input type="checkbox" value="archery">
+                    <a href="#archery">Archery</a><label for="cost">  $25/month</label><br>
+                    
+                    <input type="checkbox" id="short-sword" value="short-sword">
+                    <a href="#short-sword">Short Sword</a><label for="cost">  $25/month</label><br>
+                    
+                    <input type="checkbox" value="fencing">
+                    <a href="#fencing">Fencing</a><label for="cost">  $25/month</label><br>
+                    
+                    <input type="checkbox" value="mounted-weapons">
+                    <a href="#mounted-weapons">Mounted Weapons</a><label for="cost">  $70/month</label><br>
+                    
+                    <input type="checkbox" value="armored-longsword">
+                    <a href="#armored-longsword">Armored Longsword</a><label for="cost">  $40/month</label><br>
+                    
+                    <input type="checkbox" value="aikido">
+                    <a href="#aikido">Martial Arts</a><label for="cost">  $25/month</label><br>
+                    
+                    <input type="checkbox" value="yoga">
+                    <a href="#yoga">Yoga</a><label for="cost">  $25/month</label><br>
+                    
+                    <input type="checkbox" value="rock">
+                    <a href="#rock">Rock Climbing</a><label for="cost">  $25/month</label><br>
+                    
+                    <input type="checkbox" value="dungeon-running">
+                    <a href="#dungeon">Dungeon Running</a><label for="cost">  $100/month</label><br>
+                    
+                    <input type="checkbox" value="MED">
+                    <a href="#MED">Middle Eastern Dance</a><label for="cost">  $25/month</label><br>
+                </dev>
+                <dev class="form-item">
+                    <label>Message:</label><br>
+                    <textarea name="message" id="message" cols="40" rows="5"></textarea><br><br>
+                    
+                    <!-- There would be a calculator here for all checked items. Beyond my abilities right now. -->
+                    <label for="total-cost">Total cost:</label>
+                    <textarea name="total-cost" id="total-cost" cols="10" rows="1"></textarea>
+                </dev>
+                <button id="submit_or_perish">Submit or perish!</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Class Descriptions -->
+    <!-- Links to class descriptions jump too far down, cutting off image and title. -->
+    <section class="class-description">
+        <div class="class-container">
+            <dev class="class-item">
+                <img class="class-img" id="archery" src="static/images/DR/archer-sm-gioele-fazzeri.jpg" alt="Archer with arrow nocked to bow. Image credit: Gioele Fazzeri.">
+                <h3 class="class-link">Archery</h3>
+                <p>$25/month. All equipment included, or you can bring your own.</p>
+            </dev>
+            <dev class="class-item Short-Sword">
+                <img class="class-img" id="short-sword" src="static/images/DR/bucaneer-sword-sm-anis-rahman.jpg" alt="Sword leaning against a wall. Image credit: Anis Rahman">
+                <h3 class="class-link">Short Sword</h3>
+                <p>$25/month. All equipment included, or you can bring your own.</p>
+            </dev>
+            <dev class="class-item Fencing">
+                <img class="class-img" id="fencing" src="static/images/DR/rapier-sm-chris-linnett.jpg" alt="Two rapiers.  Image credit: Chris Linnett.">
+                <h3 class="class-link">Fencing</h3>
+                <p>$25/month. All equipment included, or you can bring your own.</p>
+            </dev>
+            <dev class="class-item Mounted-Weapons">
+                <img class="class-img" id="mounted-weapons" src="static/images/DR/mounted-archer-sm-michael-anfang-ea.jpg" alt="Mounted Archery. Image credit: Michael Angfang Ea">
+                <h3 class="class-link">Mounted Weapons</h3>
+                <p>$70 / month. Horses and equine equipment provided, as well as weapons available in standard classes. Proficiency in weapon of choice required. Basic care of horses required. Class location off-site.</p>
+            </dev>
+            <dev class="class-item Armored-Longsword">
+                <img class="class-img" id="armored-longsword" src="static/images/DR/knights-swordfighting-sm-casper-johansson.jpg" alt="Knights swordfighting. Image credit: Casper Johansson">
+                <h3 class="class-link">Armored Longsword</h3>
+                <p>$40/month. Proficiency with shor sword or Fencing required.  Longswords and some weighted padding in leiu of armor provided. You are welcome to bring in your own armor, we will inspect it for appropriateness before allowing its use.</p>
+            </dev>
+            <dev class="class-item Aikido">
+                <img class="class-img" id="aikido" src="static/images/DR/aikido-sm-nando-garcia.jpg" alt="Man in Dojo throwing two other men.  Image credit: Nando Garcia">
+                <h3 class="class-link">Martial Arts</h3>
+                <p>$25/month. Absolutely no shoes allowed in the Dojo area. Purchase of judo-type gi required, available for purchase here. You will start as white belt regardless of your level from another Dojo. If you have prior experience, you can test after a month of white-belt training.</p>
+            </dev>
+            <dev class="class-item Yoga">
+                <img class="class-img" id="yoga" src="static/images/DR/yoga-sm-anupam-mahapatra.jpg" alt="Yoga class.  Image credit: Anupam Mahapatra">
+                <h3 class="class-link">Yoga</h3>
+                <p>$25/month. Yoga mats, blocks, and belts available for purchase. Padded Dojo area used so yoga mats may not be required, your choice. Absolutely no shoes allowed in the Dojo area. </p>
+            </dev>
+            <dev class="class-item rock-climbing">
+                <img class="class-img" id="rock" src="static/images/DR/rock-wall-yns-plt-unsplash.jpg" alt="Woman climbing on a small boldering gym wall. Image credit: Yns Plt">
+                <h3 class="class-link">Rock Climbing</h3>
+                <p>$25/month. Small bouldering area and one top-roped route. We are NOT a rock gym. We only teach the basic safety and techniques. All personal equipment must be purchased elsewhere. Only ropes provided.</p>
+            </dev>
+            <dev class="class-item Dungeon-Running">
+                <img class="class-img" id="dungeon" src="static/images/DR/Skuls-sm-gleb-lucky.jpg" alt="Wall of Skulls. Image credit: Gleb Lucky">
+                <h3 class="class-link">Dungeon Running</h3>
+                <p>$100/month. Augmented reality is combined with weapons and a rotating obstacle course. Team of three to six required. Each month will be a new course. Proficience with at least TWO other courses required.</p>
+            </dev>
+            <dev class="class-item MED">
+                <img class="class-img" id="MED" src="static/images/DR/Juli-MED-Chris-Laudermilk.JPG" alt="Juli from Tribe Roman Morga dancing at a rennaisance fair. Image credit: Chris Laudermilk.">
+                <h3 class="class-link">Middle Eastern Dance</h3>
+                <p>$25/month. Learn the beautiful art of Middle Eastern Dance, from some of the most celebrated dancers in the region! Two permanent instructors, as well as guest instructors on a rotating basis. No costume required.</p>
+            </dev>
+        </div>
+    </section>
+        
+      <!-- Footer -->
+
+      <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <a href="https://goo.gl/maps/g45spgNoDpzF8Z838"><i class="fas fa-map-marker-alt"></i> 2641, 2575 Paloma St, Pasadena, CA 91107</a>
+            </div>
+            <div class="footer-item">
+                <h5><i class="fas fa-mobile-alt"></i>  Call us: 626-744-7500</h5>
+            </div>
+            <div class="footer-item">
+                <a href="scott.j.mclaughlin@gmail.com"><i class="far fa-envelope"></i> Scott@dungeon_runner_gym.com</a>
+            </div>
+            <div class="footer-item">
+                <a href="jobs.html">Employment</a>
+            </div>
+            <div class="footer-item">
+                <h5 id="legal">*Not affiliated with Wizzards of the Coast, Dungeons & Dragons, etc.</h5>
+            </div>
+        </div>
+    </footer>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,62 @@
+
+.form-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.class-sign-up {
+    margin-top: 50px;
+    padding:50px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    background-color:midnightblue;
+}
+
+#submit_or_perish {
+    background-color: gold;
+    color: black;
+    width: 150px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#submit_or_perish:hover {
+    background-color: goldenrod;
+}
+
+.class-description {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.class-img {
+    width: 75%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-self: bottom;
+    justify-self: center;
+}
+
+.class-link {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-self: center;
+}
+
+
+.class-item {
+    display: grid;
+    grid-template-columns: 200px 200px 300px;
+    margin-bottom: 20px;
+    justify-content: start;
+}
