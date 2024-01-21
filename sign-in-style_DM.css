@@ -1,0 +1,84 @@
+
+img {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+
+}
+
+.sign-in-background {
+    z-index: -1;
+    position: absolute;
+    display: flex;
+    flex-grow:initial;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+
+.main-sign-in {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 20px;
+}
+
+#sign_in_title {
+    font-weight:bolder;
+    font-size: xx-large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+    color:antiquewhite;
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.sign-in-label {
+    color:antiquewhite;
+    font-weight: bolder;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+}
+
+#continue {
+    margin-top: 20px;
+    background-color: gold;
+    color: black;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#continue:hover {
+    background-color: goldenrod;
+}
+
+#new-member {
+    font-weight:bolder;
+    font-size: xx-large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin: 0px;
+    color:antiquewhite;
+    display: flex;
+    justify-content: left;
+}
+
+.new-members {
+    margin-left: 20px;
+}
+
+h1 {
+    color: antiquewhite;
+}
