@@ -47,17 +47,54 @@ nav {
 
 .landing-background{
     z-index: -1;
-    width:fit-content;
+    position: absolute;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0px;
+    flex-grow:initial;
     width: 100%;
-    justify-content: space-around;
-    align-items: center;
+    height: auto;
+    justify-content: center;
+
 }
 
+.welcome{
+    margin:65px;
+}
+
+.grid-container {
+    display: grid;
+    align-content: top;
+    grid-template-columns: repeat(4, 200px);
+    gap: 10px;
+    justify-content: center;
+    background-color:transparent;
+    height:300px;
+    width: 100%;
+}
+
+.grid-item {
+    width: 200px;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
+
+/* .class-link {
+    background-color: darkgoldenrod;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.projects {
+    background-color: olive;
+    height:fit-content;
+    width: 100%;
+    
+} */
+
 /* Footer not displaying at bottom of all pages. */
+/* Might be due to image sizes */
 .footer-container {
     width: 100vw;
     background-color: rgb(52, 52, 52);
@@ -70,7 +107,15 @@ nav {
     display: flex; 
 }
 
-
+#CAV_img{
+    /* z-index: -1; */
+    width: 50px;
+    position: absolute;
+    display: flex;
+    flex-grow:initial;
+    height: 50px;
+    justify-content: center;
+}
 
 .footer-container {
     margin: 20px;
